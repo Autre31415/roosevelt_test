@@ -1,0 +1,78 @@
+{
+  "port": "constructor",
+  "generateFolderStructure": false,
+  "localhostOnly": "constructor",
+  "logging": {
+    "http": false,
+    "appStatus": false,
+    "warnings": false
+  },
+  "minify": "constructor",
+  "htmlValidator": {
+    "enable": "constructor",
+    "separateProcess": "constructor",
+    "port": "constructor",
+    "showWarnings": "constructor",
+    "exceptions": {
+      "requestHeader": "constructor",
+      "modelValue": "constructor"
+    }
+  },
+  "multipart": {
+    "multiples": "constructor"
+  },
+  "toobusy": {
+    "maxLagPerRequest": "constructor",
+    "lagCheckInterval": "constructor"
+  },
+  "shutdownTimeout": "constructor",
+  "bodyParser": {
+    "urlEncoded": {
+      "extended": "constructor"
+    },
+    "json": "constructor"
+  },
+  "https": "constructor",
+  "modelsPath": "constructor",
+  "viewsPath": "constructor",
+  "controllersPath": "constructor",
+  "viewEngine": null,
+  "errorPages": {
+    "notFound": "constructor",
+    "internalServerError": "constructor",
+    "serviceUnavailable": "constructor"
+  },
+  "staticsRoot": "constructor",
+  "htmlMinifier": {
+    "override": "constructor",
+    "exception_url": "constructor",
+    "htmlMinifier": "constructor"
+  },
+  "css": {
+    "sourcePath": "constructor",
+    "compiler": "constructor",
+    "whitelist": "constructor",
+    "output": "constructor",
+    "symlinkToPublic": "constructor",
+    "versionFile": "constructor"
+  },
+  "js": {
+    "sourcePath": "constructor",
+    "compiler": "constructor",
+    "whitelist": "constructor",
+    "blacklist": "constructor",
+    "output": "constructor",
+    "symlinkToPublic": "constructor",
+    "bundler": {
+      "bundles": "constructor",
+      "output": "constructor",
+      "expose": "constructor"
+    }
+  },
+  "publicFolder": "constructor",
+  "favicon": "constructor",
+  "versionedPublic": "constructor",
+  "alwaysHostPublic": "constructor",
+  "cores": "constructor",
+  "cleanTimer": "constructor"
+}

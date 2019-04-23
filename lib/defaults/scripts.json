@@ -1,0 +1,85 @@
+{
+  "start": {
+    "value": "nodemon app.js --production-mode",
+    "priority": "ignore"
+  },
+  "production": {
+    "value": "nodemon app.js --production-mode",
+    "priority": "ignore"
+  },
+  "prod": {
+    "value": "nodemon app.js --production-mode",
+    "priority": "ignore"
+  },
+  "p": {
+    "value": "nodemon app.js --production-mode",
+    "priority": "ignore"
+  },
+  "development": {
+    "value": "nodemon app.js --development-mode",
+    "priority": "ignore"
+  },
+  "dev": {
+    "value": "nodemon app.js --development-mode",
+    "priority": "ignore"
+  },
+  "d": {
+    "value": "nodemon app.js --development-mode",
+    "priority": "ignore"
+  },
+  "kill-validator": {
+    "value": "node ./node_modules/roosevelt/lib/scripts/killValidator.js",
+    "priority": "error",
+    "inspect": true
+  },
+  "kv": {
+    "value": "node ./node_modules/roosevelt/lib/scripts/killValidator.js",
+    "priority": "ignore"
+  },
+  "clean": {
+    "value": "node ./node_modules/roosevelt/lib/scripts/appCleanup.js",
+    "priority": "error",
+    "inspect": true
+  },
+  "c": {
+    "value": "node ./node_modules/roosevelt/lib/scripts/appCleanup.js",
+    "priority": "ignore"
+  },
+  "config-audit": {
+    "value": "node ./node_modules/roosevelt/lib/scripts/configAuditor.js",
+    "priority": "error",
+    "inspect": true
+  },
+  "a": {
+    "value": "node ./node_modules/roosevelt/lib/scripts/configAuditor.js",
+    "priority": "ignore"
+  },
+  "standard": {
+    "value": "standard",
+    "priority": "ignore"
+  },
+  "stylelint": {
+    "value": "stylelint \"statics/css/**/*.less\" --syntax less",
+    "priority": "ignore"
+  },
+  "lint": {
+    "value": "npm run standard && npm run stylelint",
+    "priority": "ignore"
+  },
+  "l": {
+    "value": "npm run standard && npm run stylelint",
+    "priority": "ignore"
+  },
+  "precommit": {
+    "value": "lint-staged",
+    "priority": "ignore"
+  },
+  "pc": {
+    "value": "lint-staged",
+    "priority": "ignore"
+  },
+  "test": {
+    "value": "npm run lint",
+    "priority": "warning"
+  }
+}

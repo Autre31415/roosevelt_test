@@ -1,0 +1,27 @@
+{
+  "port": 1234,
+  "generateFolderStructure": false,
+  "logging": {
+    "http": false,
+    "appStatus": false,
+    "warnings": false
+  },
+  "https": {
+    "enable": true,
+    "force": true,
+    "port": 2468,
+    "authInfoPath": {
+      "p12": {
+        "p12Path": "test/util/certs/test.p12",
+        "passphrase": "testpass"
+      },
+      "authCertAndKey": {
+        "cert": "test/util/certs/test.req.crt",
+        "key": "test/util/certs/test.req.key"
+      }
+    },
+    "caCert": "test/util/certs/ca.crt",
+    "requestCert": false,
+    "rejectUnauthorized": false
+  }
+}
