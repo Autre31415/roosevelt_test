@@ -4,6 +4,6 @@ os:
 node_js:
   - "11"
 before_script:
-  - if [[ "$TRAVIS_OS_NAME" == "windows" ]]; then choco install jdk8; C:\ProgramData\chocolatey\bin\RefreshEnv.cmd; fi
+- if [[ "$TRAVIS_OS_NAME" == "windows" ]]; then choco install jdk8; "C:/ProgramData/chocolatey/binRefreshEnv.cmd"; fi
 script:
   - npm t
