@@ -4,7 +4,7 @@ os:
 node_js:
   - "11"
 before_script:
-  - if [[ "$TRAVIS_OS_NAME" == "windows" ]]; then choco install javaruntime; fi
+  - if [[ "$TRAVIS_OS_NAME" == "windows" ]]; then choco install openjdk; fi
 
 script:
   - npm run test
